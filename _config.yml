@@ -1,3 +1,6 @@
 defaults:
   - scope:
       path: '_next/static'
+    values:
+      layout: null
+      permalink: /_next/static/:path/
